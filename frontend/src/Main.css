@@ -1,0 +1,44 @@
+.mainscreen{
+    margin-right: 0;
+}
+.cardborder{
+    background-color: black;
+    color: white;
+    margin: 0;
+    box-shadow: 0px 0px 5px black;
+    
+}
+.addform{
+    max-width:60vh;
+}
+.cardhead{
+    width: 71%;
+}
+.carddetail{
+    font-size: 1em;
+    text-align: center;
+    text-align: center;
+
+}
+.maincard{
+    height: 15vh;
+    box-shadow: 0px 0px 2px rgb(73, 73, 72);
+    font-weight: 600;
+
+
+}
+.maincard {
+    overflow: hidden;
+  }
+  
+  .carddetail{
+    transition: transform 0.3s ease;
+  }
+  
+  .maincard:hover .carddetail {
+    transform: scale(1.02);
+  }
+  .honeeffect{
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+  }
